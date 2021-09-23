@@ -112,7 +112,7 @@ theme: stellar
 # npm install hexo-deployer-git --save
 deploy:
   - type: git
-    repo: https://github.com/vaneao/vaneao.github.io.git
+    repo: git@github.com:vaneao/vaneao.github.io.git
     branch: gh-pages
     message: "Build at {{ now('YYYY-MM-DD HH:mm:ss Z') }}"
 

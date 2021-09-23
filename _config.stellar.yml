@@ -1,0 +1,71 @@
+sidebar:
+  menu:
+    post: '[博客](/)'
+    wiki: '[项目](/wiki/)'
+    notes: '[便笺](/notes/)'
+    more: '[更多](/about/)'
+  widgets:
+    default_layout:
+      - welcome
+      - recent
+
+article:
+  # 分类颜色
+  category_color:
+    '新闻稿': '#DA0F47'
+    '设计开发': '#03a9f4'
+    # '奇思妙想': '#009688'
+    '解决方案': '#ff9800'
+    '技术加油站': '#4caf50'
+    '开源库': '#4caf50'
+    '博客主题': '#ffa000'
+    # '应用程序': '#e91e63'
+    # '实用脚本': '#009688'
+  share: [wechat, weibo, email, link]
+  related_posts:
+    enable: true
+
+comments:
+  service: beaudar
+  beaudar:
+    repo: 
+
+footer:
+  social:
+    - title: GitHub
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/08a41b181ce68.svg"/>'
+      url: https://github.com/xaoxuu
+    - title: Spotify
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3845874.svg"/>'
+      url: https://open.spotify.com/user/xaoxuu
+    - title: Unsplash
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/3616429.svg"/>'
+      url: https://unsplash.com/@xaoxuu
+    - title: Comments
+      icon: '<img src="https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.3/social/942ebbf1a4b91.svg"/>'
+      url: /about/#comments
+  sitemap:
+    '博客':
+      - '[近期发布](/)'
+      - '[分类](/blog/categories/)'
+      - '[标签](/blog/tags/)'
+      - '[归档](/blog/archives/)'
+    '项目':
+      - '[开源库](/wiki/tags/开源库/)'
+      - '[实用脚本](/wiki/tags/实用脚本/)'
+      - '[博客主题](/wiki/tags/博客主题/)'
+      - '[应用程序](/wiki/tags/应用程序/)'
+    '社交':
+      - '[友链](/friends/)'
+      - '[留言板](/about/#comments)'
+      - '[Spotify](https://open.spotify.com/user/xaoxuu)'
+    '更多':
+      - '[关于本站](/about/)'
+      - '[GitHub](https://github.com/xaoxuu)'
+      - '[GitLab](http://42.192.89.158:8099/explore)'
+  source: '[GitHub](https://github.com/xaoxuu/xaoxuu.github.io/)'
+
+
+style:
+  codeblock:
+    scrollbar: 0px

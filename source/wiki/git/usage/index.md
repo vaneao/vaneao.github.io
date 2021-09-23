@@ -21,9 +21,9 @@ order: 2
 ### 克隆版本库
 
 ```
-git clone https://github.com/xaoxuu/AXKit.git
+git clone https://github.com/vaneao/AXKit.git
 # 或者
-git clone https://github.com/xaoxuu/AXKit.git AXKit
+git clone https://github.com/vaneao/AXKit.git AXKit
 ```
 
 ### 配置版本库

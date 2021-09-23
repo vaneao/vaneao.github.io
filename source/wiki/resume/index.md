@@ -5,7 +5,7 @@ title: 一个简约的在线简历主题
 ---
 
 {% link https://resume.js.org/zh-cn/ 在线演示 %}
-{% link https://github.com/xaoxuu/hexo-theme-resume 主题源码 %}
+{% link https://github.com/vaneao/hexo-theme-resume 主题源码 %}
 
 <!-- more -->
 
@@ -13,9 +13,9 @@ title: 一个简约的在线简历主题
 
 ### 方式一
 
-1. 下载 [示例源码](https://github.com/xaoxuu/resume-docs) 的整个仓库代码。
+1. 下载 [示例源码](https://github.com/vaneao/resume-docs) 的整个仓库代码。
 ```sh
-git clone https://github.com/xaoxuu/resume-docs
+git clone https://github.com/vaneao/resume-docs
 ```
 
 2. 然后安装必要的依赖包

@@ -29,7 +29,7 @@ comment_id: '留言板'
 
 <!-- node 第一步：新建 Issue -->
 
-新建 [GitHub Issue](https://github.com/xaoxuu/friends/issues/) 按照模板格式填写并提交。
+新建 [GitHub Issue](https://github.com/vaneao/friends/issues/) 按照模板格式填写并提交。
 
 为了提高图片加载速度，建议优化头像：
 1. 打开 [压缩图](https://www.yasuotu.com/) 上传自己的头像，将图片尺寸调整到 `96px` 后下载。
@@ -40,9 +40,9 @@ comment_id: '留言板'
 请添加本站到您的友链中，如果您也使用 issue 作为友链源，只需要告知您的友链源仓库即可。
 
 {% codeblock lang:yaml %}
-title: xaoxuu
-avatar: https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/avatar/rect-256@2x.png
-url: https://xaoxuu.com
+title: vaneao
+avatar: https://cdn.jsdelivr.net/gh/cdn-x/vaneao/avatar/rect-256@2x.png
+url: https://vaneao.com
 screenshot: https://i.loli.net/2020/08/21/VuSwWZ1xAeUHEBC.jpg
 {% endcodeblock %}
 

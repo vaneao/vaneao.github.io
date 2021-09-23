@@ -84,7 +84,7 @@ comment_id: '留言板'
 ```yaml blog/source/wiki/stellar/index.md
 title: 快速开始您的博客之旅
 beaudar:
-  repo: xaoxuu/hexo-theme-stellar
+  repo: vaneao/hexo-theme-stellar
   'issue-term': 'Q & A'
 ```
 

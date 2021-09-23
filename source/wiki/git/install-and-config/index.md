@@ -85,8 +85,8 @@ Git 提供了一个叫做 `git config` 的工具，专门用来配置或读取�
 ### 用户信息
 
 ```bash
-$ git config --global user.name xaoxuu
-$ git config --global user.email git@xaoxuu.com
+$ git config --global user.name vaneao
+$ git config --global user.email git@vaneao.com
 ```
 
 - 如果用了 `--global` 选项，那么更改的配置文件就是位于你用户主目录下的那个，以后你所有的项目都会默认使用这里配置的用户信息。
@@ -97,8 +97,8 @@ $ git config --global user.email git@xaoxuu.com
 ```bash
 $ git config --list
 http.postbuffer=2M
-user.name=xaoxuu
-user.email=git@xaoxuu.com
+user.name=vaneao
+user.email=git@vaneao.com
 ```
 
 

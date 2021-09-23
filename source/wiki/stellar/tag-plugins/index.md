@@ -92,18 +92,18 @@ tag_plugins:
 
 对于单行内容，可以使用 `copy` 标签来实现复制功能：
 
-{% copy curl -s https://xaoxuu.com/install | sh %}
+{% copy curl -s https://vaneao.com/install | sh %}
 
 您可以设置 `git:https` 或者 `git:ssh` 或者 `git:gh` 来快速放置一个 git 仓库链接：
-{% copy git:https xaoxuu.com/hexo-theme-stellar %}
+{% copy git:https vaneao.com/hexo-theme-stellar %}
 
 
 ```md 写法如下
-{% copy curl -s https://xaoxuu.com/install | sh %}
-{% copy width:max curl -s https://xaoxuu.com/install | sh %}
-{% copy git:https xaoxuu.com/hexo-theme-stellar %}
-{% copy git:ssh xaoxuu.com/hexo-theme-stellar %}
-{% copy git:gh xaoxuu.com/hexo-theme-stellar %}
+{% copy curl -s https://vaneao.com/install | sh %}
+{% copy width:max curl -s https://vaneao.com/install | sh %}
+{% copy git:https vaneao.com/hexo-theme-stellar %}
+{% copy git:ssh vaneao.com/hexo-theme-stellar %}
+{% copy git:gh vaneao.com/hexo-theme-stellar %}
 ```
 
 ## 图片标签
@@ -141,10 +141,10 @@ bg: '#ffffff' # 图片区域背景颜色，16进制
 
 有底色的图片，可以填充图片底色：
 
-{% image https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/mirror/apple/documentation/watchkit/06d45110-1dd7-49a4-a413-9f5159ecdd0e.png width:200px padding:16px bg:white %}
+{% image https://cdn.jsdelivr.net/gh/cdn-x/vaneao/mirror/apple/documentation/watchkit/06d45110-1dd7-49a4-a413-9f5159ecdd0e.png width:200px padding:16px bg:white %}
 
 ```md 写法如下
-{% image https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/mirror/apple/documentation/watchkit/06d45110-1dd7-49a4-a413-9f5159ecdd0e.png width:200px padding:16px bg:white %}
+{% image https://cdn.jsdelivr.net/gh/cdn-x/vaneao/mirror/apple/documentation/watchkit/06d45110-1dd7-49a4-a413-9f5159ecdd0e.png width:200px padding:16px bg:white %}
 ```
 
 没有底色的图片，可以填充 `bg:var(--card)` 动态颜色，能够适配暗黑模式：
@@ -156,7 +156,7 @@ bg: '#ffffff' # 图片区域背景颜色，16进制
 ```
 
 {% folding 如果不进行约束，在宽屏设备上阅读体验很糟糕（为不影响阅读体验，已为您折叠过长的内容） %}
-{% image https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/mirror/apple/documentation/watchkit/06d45110-1dd7-49a4-a413-9f5159ecdd0e.png %}
+{% image https://cdn.jsdelivr.net/gh/cdn-x/vaneao/mirror/apple/documentation/watchkit/06d45110-1dd7-49a4-a413-9f5159ecdd0e.png %}
 {% endfolding %}
 
 
@@ -238,7 +238,7 @@ color: red/orange/yellow/green/cyan/blue/purple/light/dark
 {% noteblock child:tabs %}
 {% tabs %}
 <!-- tab 图文示例 -->
-{% image https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/blog/2020-0627a@2x.jpg 个人电脑作为办公设备时，我们该如何保护隐私？ download:true %}
+{% image https://cdn.jsdelivr.net/gh/cdn-x/vaneao/blog/2020-0627a@2x.jpg 个人电脑作为办公设备时，我们该如何保护隐私？ download:true %}
 
 公司一般都会强制安装安防软件，这些软件要求开机自启动，要求有屏幕录制权限、完全的磁盘访问权限包括相册图库。因此如果使用自己的 MacBook 作为办公设备，必须要把生活区和工作区完全独立开，安装在两个磁盘分区，并且对磁盘分区进行加密。
 
@@ -256,7 +256,7 @@ npm: 6.14.10 LTS
 {% noteblock %}
 {% tabs %}
 <!-- tab 图文示例 -->
-{% image https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/blog/2020-0627a@2x.jpg 个人电脑作为办公设备时，我们该如何保护隐私？ download:true %}
+{% image https://cdn.jsdelivr.net/gh/cdn-x/vaneao/blog/2020-0627a@2x.jpg 个人电脑作为办公设备时，我们该如何保护隐私？ download:true %}
 公司一般都会强制安装安防软件，这些软件要求开机自启动，要求有屏幕录制权限、完全的磁盘访问权限包括相册图库。因此如果使用自己的 MacBook 作为办公设备，必须要把生活区和工作区完全独立开，安装在两个磁盘分区，并且对磁盘分区进行加密。
 <!-- tab 代码示例 -->
 {% codeblock 建议的版本 lang:yaml %}
@@ -386,7 +386,7 @@ img: 可选，缩略图
 
 例如：
 
-{% link https://github.com/xaoxuu github@xaoxuu github.com/xaoxuu img:https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/favicon/android-chrome-192x192.png %}
+{% link https://github.com/vaneao github@vaneao github.com/vaneao img:https://cdn.jsdelivr.net/gh/cdn-x/vaneao/favicon/android-chrome-192x192.png %}
 
 ## 单选/复选样式标签
 
@@ -459,9 +459,9 @@ group2:
       ...
 group3:
   title: 来自 GitHub 的朋友
-  description: '以下友链通过 [GitHub Issue](https://github.com/xaoxuu/friends/issues/) 提交，按 issue 最后更新时间排序：'
+  description: '以下友链通过 [GitHub Issue](https://github.com/vaneao/friends/issues/) 提交，按 issue 最后更新时间排序：'
   api: https://issues-api.vercel.app
-  repo: xaoxuu/friends
+  repo: vaneao/friends
 ```
 
 标题和描述都支持 md 格式，需要写在引号中。如果指定了 `api` 和 `repo` 字段，则从 issues 中取第一个 `json` 代码块数据作为友链。
@@ -493,7 +493,7 @@ group3:
 
 可以加载来自 issues 的友链数据，除了需要在 `_data/friends.yml` 中指定 `api` 和 `repo` 外，还需要做一下几件事：
 
-从 [xaoxuu/issues-api](https://github.com/xaoxuu/issues-api) 作为模板克隆或者 fork 仓库，然后提交一个 issue 进行测试，不出意外的话，仓库中已经配置好了 issue 模板，只需要在模板中指定的位置填写信息就可以了。
+从 [vaneao/issues-api](https://github.com/vaneao/issues-api) 作为模板克隆或者 fork 仓库，然后提交一个 issue 进行测试，不出意外的话，仓库中已经配置好了 issue 模板，只需要在模板中指定的位置填写信息就可以了。
 
 提交完 issue 一分钟左右，如果仓库中出现了 `output` 分支提交，可以点击查看一下文件内容是否已经包含了刚刚提交的 issue 中的数据，如果包含，那么再次回到前端页面刷新就可以看到来自 issue 的友链数据了。
 
@@ -506,13 +506,13 @@ group3:
 如果您不想创建 `friends.yml` 来设置任何静态数据，可以在标签中设置 `repo` 来只显示动态数据：
 
 ```
-{% friends repo:xaoxuu/friends %}
+{% friends repo:vaneao/friends %}
 ```
 
 当然，如果您自己部署了 API 接口，可以指定：
 
 ```
-{% friends repo:xaoxuu/friends api:https://issues-api.vercel.app %}
+{% friends repo:vaneao/friends api:https://issues-api.vercel.app %}
 ```
 
 ## 网站卡片标签
@@ -529,13 +529,13 @@ group3:
 
 ## GitHub Card
 
-{% ghcard xaoxuu %}
+{% ghcard vaneao %}
 
-{% ghcard xaoxuu/hexo-theme-stellar theme:dark %}
+{% ghcard vaneao/hexo-theme-stellar theme:dark %}
 
 ```md 写法如下
-{% ghcard xaoxuu %}
-{% ghcard xaoxuu/hexo-theme-stellar theme:dark %}
+{% ghcard vaneao %}
+{% ghcard vaneao/hexo-theme-stellar theme:dark %}
 ```
 
 {% link https://github.com/anuraghazra/github-readme-stats GitHub&nbsp;Card&nbsp;API github-readme-stats %}
@@ -545,7 +545,7 @@ group3:
 文章内也可以插入一个导航栏：
 
 ```md
-{% navbar [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
+{% navbar [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/vaneao/) %}
 ```
 
 
@@ -554,15 +554,15 @@ group3:
 方便在关于页面显示一段图文信息：
 
 ```
-{% about avatar:https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/avatar/rect-256@2x.png height:80px %}
+{% about avatar:https://cdn.jsdelivr.net/gh/cdn-x/vaneao/avatar/rect-256@2x.png height:80px %}
 
-<img height="32px" alt="XAOXUU" src="https://cdn.jsdelivr.net/gh/cdn-x/xaoxuu/logo/180x30@2x.png">
+<img height="32px" alt="vaneao" src="https://cdn.jsdelivr.net/gh/cdn-x/vaneao/logo/180x30@2x.png">
 
 **如果宇宙中真有什么终极的逻辑，那就是我们终有一天会在舰桥上重逢，直到生命终结。**
 
-XAOXUU 目前是一个 iOS 开发者，代表作品有：ProHUD、ValueX 等。在业余时间也开发了 Stellar 博客主题，更多的作品可以去项目主页查看，希望大家喜欢～
+vaneao 目前是一个 iOS 开发者，代表作品有：ProHUD、ValueX 等。在业余时间也开发了 Stellar 博客主题，更多的作品可以去项目主页查看，希望大家喜欢～
 
-{% navbar [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/xaoxuu/) %}
+{% navbar [文章](/) [项目](/wiki/) [留言](#comments) [GitHub](https://github.com/vaneao/) %}
 
 {% endabout %}
 ```

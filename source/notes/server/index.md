@@ -55,7 +55,7 @@ PasswordAuthentication no
 
 ### 网站路径
 
-创建网站，以 `/www/wwwroot/xaoxuu.github.io` 为例，`/www/wwwroot/xaoxuu.github.io` 的权限要改成 777 并且所有者为 www 才可以访问。
+创建网站，以 `/www/wwwroot/vaneao.github.io` 为例，`/www/wwwroot/vaneao.github.io` 的权限要改成 777 并且所有者为 www 才可以访问。
 
 ### GitHub Action
 
@@ -88,7 +88,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.DEPLOY_KEY }}
-        external_repository: xaoxuu/xaoxuu.github.io
+        external_repository: vaneao/vaneao.github.io
         publish_branch: gh-pages
         publish_dir: ./public
         commit_message: ${{ github.event.head_commit.message }}
@@ -112,14 +112,14 @@ jobs:
 SERVER_SSH_KEY: 第一步本机生成的 id_isa 文件内容
 REMOTE_HOST: 服务器地址
 REMOTE_USER: 用户名，例如 "git"
-TARGET: 生成的文件路径，例如 "/www/wwwroot/xaoxuu.github.io/"
+TARGET: 生成的文件路径，例如 "/www/wwwroot/vaneao.github.io/"
 ```
 
 ## 设置 webhook
 
 ```bash post-receive
 #!/bin/bash
-WEBROOT=/www/wwwroot/xaoxuu.github.io
+WEBROOT=/www/wwwroot/vaneao.github.io
 git --work-tree=$WEBROOT checkout -f master
 ```
 
@@ -129,7 +129,7 @@ git --work-tree=$WEBROOT checkout -f master
 /home/git/xxx.git/hooks/post-receive
 ```
 
-> `/www/wwwroot/xaoxuu.github.io` 的权限要改成 777 才行
+> `/www/wwwroot/vaneao.github.io` 的权限要改成 777 才行
 
 
 {% link https://zhuanlan.zhihu.com/p/58654392 Hexo 从 GitHub 到阿里云 %}
@@ -155,7 +155,7 @@ include /www/server/panel/vhost/nginx/*.conf;
 
 然后根据这个路径找到自定义的配置文件：
 ```
-/www/server/panel/vhost/nginx/xaoxuu.com.conf
+/www/server/panel/vhost/nginx/vaneao.com.conf
 ```
 
 在其中添加如下代码就可以了：
@@ -166,7 +166,7 @@ server
     fastcgi_intercept_errors on;
     error_page 404 /404.html;
     location = /404.html {
-        root /www/wwwroot/xaoxuu.github.io;
+        root /www/wwwroot/vaneao.github.io;
     }
     ...
 }

@@ -25,8 +25,8 @@ Windows 7~10
 
 ## 下载
 
-{% link https://github.com/xaoxuu/NEXUS-Windows/releases/ 核心程序 %}
-{% link https://github.com/xaoxuu/NEXUS-Windows/releases/ 核心程序 %}
+{% link https://github.com/vaneao/NEXUS-Windows/releases/ 核心程序 %}
+{% link https://github.com/vaneao/NEXUS-Windows/releases/ 核心程序 %}
 
 ## 已归档
 

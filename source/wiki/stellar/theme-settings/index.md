@@ -79,10 +79,10 @@ Beaudar 是 Utterances 的中文版本，相比 Utterances 有更多的体验优
 comments:
   service: beaudar
   beaudar:
-    repo: xaoxuu/blog-comments
+    repo: vaneao/blog-comments
 {% endcodeblock %}
 
-[Beaudar](https://beaudar.lipk.org) 的配置方法很简单，创建一个仓库，在仓库中创建一个[域名白名单文件](https://github.com/xaoxuu/blog-comments/blob/main/beaudar.json) ，然后在[此处](https://github.com/apps/beaudar)授权安装即可。
+[Beaudar](https://beaudar.lipk.org) 的配置方法很简单，创建一个仓库，在仓库中创建一个[域名白名单文件](https://github.com/vaneao/blog-comments/blob/main/beaudar.json) ，然后在[此处](https://github.com/apps/beaudar)授权安装即可。
 
 <!-- tab utterances  -->
 
@@ -92,10 +92,10 @@ A lightweight comments widget built on GitHub issues. Use GitHub issues for blog
 comments:
   service: utterances
   utterances:
-    repo: xaoxuu/blog-comments
+    repo: vaneao/blog-comments
 {% endcodeblock %}
 
-[utterances](https://utteranc.es) 的配置方法很简单，创建一个仓库，在仓库中创建一个[域名白名单文件](https://github.com/xaoxuu/blog-comments/blob/main/utterances.json) ，然后在[此处](https://github.com/apps/utterances)授权安装即可。
+[utterances](https://utteranc.es) 的配置方法很简单，创建一个仓库，在仓库中创建一个[域名白名单文件](https://github.com/vaneao/blog-comments/blob/main/utterances.json) ，然后在[此处](https://github.com/apps/utterances)授权安装即可。
 
 <!-- tab Twikoo  -->
 

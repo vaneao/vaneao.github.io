@@ -9,7 +9,7 @@ title: 「tag.sh」一个方便发布git版本的脚本
 
 打开终端，输入并执行这一行命令即可：
 
-{% copy width:max curl -s https://xaoxuu.com/install | sh -s tag.sh %}
+{% copy width:max curl -s https://vaneao.com/install | sh -s tag.sh %}
 
 ## 发布版本
 

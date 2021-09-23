@@ -11,11 +11,11 @@ let `path` = 你的项目的 `podspec` 所在的路径
 
 打开终端，cd 到 `path` ，输入下面这条命令下载脚本到当前文件夹：
 
-{% copy width:max curl -s https://xaoxuu.com/install | sh -s podspec.sh %}
+{% copy width:max curl -s https://vaneao.com/install | sh -s podspec.sh %}
 
 如需安装指定版本，在后面加上版本号即可，例如：
 
-{% copy width:max curl -s https://xaoxuu.com/install | sh -s podspec.sh 1.2.1 %}
+{% copy width:max curl -s https://vaneao.com/install | sh -s podspec.sh 1.2.1 %}
 
 需要发布 podspec 到时候，在终端中输入：
 

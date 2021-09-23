@@ -69,7 +69,7 @@ npm: 6.14.13 LTS
 1. 在 package.json 中修改 stellar 的版本号，然后执行：
 {% copy npm i %}
 
-2. 阅读[更新日志](https://github.com/xaoxuu/hexo-theme-stellar/releases)进行迁移操作。
+2. 阅读[更新日志](https://github.com/vaneao/hexo-theme-stellar/releases)进行迁移操作。
 
 {% note color:green 适用范围 稳定版适用于以内容创作为主，不需要自定义主题，追求稳定和可靠性的用户。 %}
 
@@ -78,7 +78,7 @@ npm: 6.14.13 LTS
 **安装方法**
 
 1. 把 Stellar 主题仓库添加为博客仓库的子模块
-{% copy git submodule add https://github.com/xaoxuu/hexo-theme-stellar.git themes/stellar %}
+{% copy git submodule add https://github.com/vaneao/hexo-theme-stellar.git themes/stellar %}
 
 2. 在 `blog/_config.yml` 文件中找到并修改：
 {% copy theme: stellar %}
@@ -88,7 +88,7 @@ npm: 6.14.13 LTS
 1. 打开终端并进入主题文件夹，执行：
 {% copy git pull %}
 
-2. 阅读[更新日志](https://github.com/xaoxuu/hexo-theme-stellar/releases)进行迁移操作。
+2. 阅读[更新日志](https://github.com/vaneao/hexo-theme-stellar/releases)进行迁移操作。
 
 {% note color:blue 适用范围 最新版适用于以内容创作为主，不需要自定义主题，追求新特性的用户。 %}
 
@@ -96,7 +96,7 @@ npm: 6.14.13 LTS
 
 **安装方法**
 
-1. 把 Stellar 主题仓库 [fork](https://github.com/xaoxuu/hexo-theme-stellar) 到您的 GitHub 账号下
+1. 把 Stellar 主题仓库 [fork](https://github.com/vaneao/hexo-theme-stellar) 到您的 GitHub 账号下
 
 2. 把您 fork 的 Stellar 主题仓库添加为博客仓库的子模块
 {% copy git submodule add https://github.com/#yourname#/hexo-theme-stellar.git themes/stellar %}
@@ -109,7 +109,7 @@ npm: 6.14.13 LTS
 1. 在您 fork 的 Stellar 主题仓库打开终端，执行：
 {% copy git pull %}
 
-2. 阅读[更新日志](https://github.com/xaoxuu/hexo-theme-stellar/releases)进行迁移操作。
+2. 阅读[更新日志](https://github.com/vaneao/hexo-theme-stellar/releases)进行迁移操作。
 
 {% note color:yellow 适用范围 自定义版适用于对主题有自定义需求，且掌握了一定的前端知识和动手能力的用户。 %}
 
@@ -127,18 +127,18 @@ npm: 6.14.13 LTS
 
 ## 示例博客
 
-{% sites repo:xaoxuu/hexo-theme-stellar-examples %}
+{% sites repo:vaneao/hexo-theme-stellar-examples %}
 
-{% note 小提示 如果您也使用了 Stellar 并希望显示在这里，可以在 [hexo-theme-stellar-examples](https://github.com/xaoxuu/hexo-theme-stellar-examples/issues) 中提交 issue 告知您的站点信息，在您提交后的大约 3 分钟内生效。 %}
+{% note 小提示 如果您也使用了 Stellar 并希望显示在这里，可以在 [hexo-theme-stellar-examples](https://github.com/vaneao/hexo-theme-stellar-examples/issues) 中提交 issue 告知您的站点信息，在您提交后的大约 3 分钟内生效。 %}
 
 ## 开源许可协议
 
-本主题是由 [@xaoxuu](https://github.com/xaoxuu) 首次开发，使用 [MIT License](https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-stellar/LICENSE) 开源许可协议进行授权：
+本主题是由 [@vaneao](https://github.com/vaneao) 首次开发，使用 [MIT License](https://cdn.jsdelivr.net/gh/vaneao/hexo-theme-stellar/LICENSE) 开源许可协议进行授权：
 
 ```license
 MIT License
 
-Copyright (c) 2021 xaoxuu
+Copyright (c) 2021 vaneao
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

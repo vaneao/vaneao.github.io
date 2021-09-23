@@ -42,10 +42,10 @@ Stellar:
     small: 112px
     large: 240px
   description: Stellar 是一个内置 wiki 系统的 hexo 主题，适合综合型站点使用。同时也拥有简约而精美的视觉设计和丰富的标签插件，帮助您简单从容地应对各种场合。
-  repo: xaoxuu/hexo-theme-stellar
-  comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
+  repo: vaneao/hexo-theme-stellar
+  comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/vaneao/hexo-theme-stellar/issues) 反馈。'
   beaudar:
-    repo: xaoxuu/hexo-theme-stellar
+    repo: vaneao/hexo-theme-stellar
     'issue-term': 'Q & A'
 ```
 
@@ -93,7 +93,7 @@ Stellar:
 
 ```yaml blog/source/_data/projects.yml
 Stellar:
-  repo: xaoxuu/hexo-theme-stellar
+  repo: vaneao/hexo-theme-stellar
 ```
 
 ### 项目评论设置
@@ -102,9 +102,9 @@ Stellar:
 
 ```yaml blog/source/_data/projects.yml
 Stellar:
-  comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/xaoxuu/hexo-theme-stellar/issues) 反馈。'
+  comment_title: '评论区仅供交流，有问题请提 [issue](https://github.com/vaneao/hexo-theme-stellar/issues) 反馈。'
   beaudar:
-    repo: xaoxuu/hexo-theme-stellar
+    repo: vaneao/hexo-theme-stellar
     'issue-term': 'Q & A'
 ```
 

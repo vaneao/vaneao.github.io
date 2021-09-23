@@ -23,11 +23,11 @@ git push origin
 
 打开终端，输入这行命令：
 
-{% copy width:max curl -s https://xaoxuu.com/install | sh -s hexo.sh %}
+{% copy width:max curl -s https://vaneao.com/install | sh -s hexo.sh %}
 
 如需安装指定版本，在后面加上版本号即可，例如：
 
-{% copy width:max curl -s https://xaoxuu.com/install | sh -s hexo.sh 2.1.0 %}
+{% copy width:max curl -s https://vaneao.com/install | sh -s hexo.sh 2.1.0 %}
 
 ## 启动脚本
 
@@ -124,7 +124,7 @@ cgd
 
 脚本:
   cd + `path` 	 选择路径
-  docs  	 查看文档(https://xaoxuu.com/wiki/hexo.sh)
-  gh (github) 	 GitHub页面(https://github.com/xaoxuu/hexo.sh)
+  docs  	 查看文档(https://vaneao.com/wiki/hexo.sh)
+  gh (github) 	 GitHub页面(https://github.com/vaneao/hexo.sh)
   u (update) 	 更新脚本文件(当前版本：2.1.0)
 ```

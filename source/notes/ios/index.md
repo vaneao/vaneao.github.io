@@ -130,7 +130,7 @@ pod spec lint AXKit.podspec
 
 ```ruby
 s.version = "0.0.1"
-s.source  = { :git => "https://github.com/xaoxuu/AXKit.git", :tag => "v#{s.version}" }
+s.source  = { :git => "https://github.com/vaneao/AXKit.git", :tag => "v#{s.version}" }
 ```
 
 这里指向的是 `"v0.0.1"` 这个分支，因为分支我们用完之后习惯把它删掉，所以这里也可以指向 tag，也就是说打一个 `"v0.0.1"` 的 tag 并推送到远程就可以了。
@@ -194,7 +194,7 @@ pod trunk --help
 输入版本号 -> commit、push tag -> pod spec lint -> 询问是否发布(y/n) -> 发布(y)
 ```
 
-{% link https://github.com/xaoxuu/podspec.sh 脚本的项目 %}
+{% link https://github.com/vaneao/podspec.sh 脚本的项目 %}
 
 
 ## 应用上传失败

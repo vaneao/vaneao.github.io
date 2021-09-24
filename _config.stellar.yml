@@ -3,7 +3,7 @@ sidebar:
     post: '[博客](/)'
     wiki: '[项目](/wiki/)'
     notes: '[便笺](/notes/)'
-    more: '[更多](/about/)'
+    more: '[关于](/about/)'
   widgets:
     default_layout:
       - welcome
